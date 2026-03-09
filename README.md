@@ -344,13 +344,8 @@ python scripts/pipeline.py
 
 ---
 
-## 📧 Support
 
-**Student:** Uday  
-**Project:** Healthcare Guidelines RAG Assistant  
-**Submission Date:** February 2026
-
-For questions or issues, please contact: udaykiranbattula304@gmail.com
+For questions or issues, please contact: manoharpasupuleti777@gmail.com
 
 ---
 
