@@ -1,0 +1,9 @@
+question,expected
+"When should hand hygiene be performed?","hand hygiene"
+"How should PPE be selected for exposure risk?","ppe"
+"What counts as high-touch surfaces for cleaning?","environmental_cleaning"
+"What is the hierarchy of clinical evidence?","evidence_hierarchy"
+"What is shared decision making?","shared_decision_making"
+"When should symptomatic staff return to work?","isolation_and_return_to_work"
+"How should cold chain be managed in vaccination?","vaccination_programs"
+"What measures during respiratory seasons?","respiratory_seasons"

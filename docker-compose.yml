@@ -1,0 +1,43 @@
+services:
+  # FastAPI Backend Service
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: healthcare-rag-api
+    ports:
+      - "9070:9070"
+    environment:
+      - LLM_PROVIDER=groq
+      - GROQ_API_KEY=${GROQ_API_KEY}
+    restart: unless-stopped
+    networks:
+      - rag-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9070/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  # Streamlit UI Service
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: healthcare-rag-ui
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://api:9070
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - rag-network
+    command: ["streamlit", "run", "streamlit_app.py", "--server.address", "0.0.0.0"]
+
+networks:
+  rag-network:
+    driver: bridge

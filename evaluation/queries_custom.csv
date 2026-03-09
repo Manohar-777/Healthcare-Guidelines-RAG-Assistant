@@ -1,0 +1,76 @@
+question,expected,category,topic
+What cleaning agents are recommended for routine environmental cleaning in healthcare settings?,environmental,simple,environmental_cleaning
+How often should high-touch surfaces be disinfected according to WHO guidelines?,environmental,simple,environmental_cleaning
+Why is respecting manufacturer contact times important during environmental cleaning?,environmental,simple,environmental_cleaning
+How should the cleaning frequency be adjusted for high-touch surfaces?,environmental,complex,environmental_cleaning
+What is the rule regarding manufacturer contact times for disinfectants?,environmental,simple,environmental_cleaning
+Under what circumstances should deviations from cleaning protocols be documented?,environmental,edge_case,environmental_cleaning
+Give examples of surfaces that require increased cleaning frequency in a patient room.,environmental,simple,environmental_cleaning
+Does the WHO specify which types of disinfectants are 'approved' for routine cleaning?,environmental,comparative,environmental_cleaning
+What are the principles of WHO environmental cleaning guidelines?,environmental,simple,environmental_cleaning
+How should staff be trained on environmental cleaning protocols?,environmental,simple,environmental_cleaning
+What monitoring is required for environmental cleaning adherence?,environmental,simple,environmental_cleaning
+What counts as high-touch surfaces for cleaning?,environmental,simple,environmental_cleaning
+In what specific clinical scenarios is hand hygiene mandatory according to WHO?,hand,simple,hand_hygiene
+Does WHO recommend hand hygiene before or after touching patient surroundings?,hand,simple,hand_hygiene
+How often should adherence to hand hygiene protocols be reviewed?,hand,simple,hand_hygiene
+Which guideline specifically mentions hand hygiene before aseptic procedures?,hand,simple,hand_hygiene
+What are the principles of CDC hand hygiene guidelines?,hand,simple,hand_hygiene
+When should hand hygiene be performed?,hand,simple,hand_hygiene
+How should staff be trained on hand hygiene protocols?,hand,simple,hand_hygiene
+What monitoring is required for hand hygiene adherence?,hand,simple,hand_hygiene
+What are the key principles of hand hygiene?,hand,simple,hand_hygiene
+"When should a healthcare worker use a combination of gloves, gowns, and eye protection?",ppe,simple,ppe
+What is the correct protocol for donning and doffing PPE safely?,ppe,simple,ppe
+How does a clinician determine which PPE is necessary for a specific patient interaction?,ppe,complex,ppe
+Does PPE selection require risk assessment?,ppe,simple,ppe
+How should staff be trained on PPE protocols?,ppe,simple,ppe
+What monitoring is needed for PPE adherence?,ppe,simple,ppe
+What deviations from PPE protocols should be documented?,ppe,edge_case,ppe
+What principles guide PPE use in WHO guidelines?,ppe,simple,ppe
+Which situations require full PPE compared to minimal protection?,ppe,complex,ppe
+How should PPE be selected for exposure risk?,ppe,simple,ppe
+What are the primary recommendations for cough and sneeze etiquette in clinical settings?,respiratory,simple,respiratory
+What triage and testing capacity changes are recommended during peak respiratory seasons?,respiratory,complex,respiratory
+Is staff training a requirement for implementing respiratory etiquette policies?,respiratory,edge_case,respiratory
+Who is responsible for issuing public health advisories during respiratory seasons?,respiratory,simple,respiratory
+"According to the 2024 CDC update, what is the current stance on masking in respiratory seasons?",respiratory,comparative,respiratory
+When should mask use be encouraged?,respiratory,simple,respiratory
+How should coughs and sneezes be covered?,respiratory,simple,respiratory
+What distance measures are recommended for respiratory etiquette?,respiratory,simple,respiratory
+What practices are included in respiratory etiquette during respiratory virus seasons?,respiratory,simple,respiratory
+How do respiratory season guidelines differ from routine IPC procedures?,respiratory,comparative,respiratory
+How should hospitals adjust staffing or operations during respiratory surges?,respiratory,complex,respiratory
+What is the requirement for recording vaccine doses in a CDC-compliant program?,vaccination,simple,vaccination
+What are the essential steps to ensure cold chain integrity during vaccine storage?,vaccination,complex,vaccination
+What is CDC guidance for vaccination programs?,vaccination,simple,vaccination
+Which groups should be prioritized in vaccination programs?,vaccination,simple,vaccination
+How is cold chain integrity ensured in vaccination?,vaccination,simple,vaccination
+Why must high-risk groups be prioritized in vaccination programs?,vaccination,simple,vaccination
+What steps are required for accurate dose recording?,vaccination,simple,vaccination
+What strategies are recommended by the CDC for determining when staff can return to work?,isolation,simple,isolation
+Can a staff member with respiratory symptoms continue working if they use a mask?,isolation,edge_case,isolation
+When can symptomatic healthcare staff return to work?,isolation,simple,isolation
+What is the difference between time-based and test-based return-to-work strategies?,isolation,comparative,isolation
+What criteria must be met before symptomatic staff can resume duties?,isolation,simple,isolation
+Which types of studies are considered to provide the highest certainty in the evidence hierarchy?,evidence,simple,evidence
+When is a clinical recommendation classified as 'strong' versus 'conditional'?,grading,simple,grading
+"If the balance of benefits and harms is uncertain, what type of recommendation is issued?",grading,complex,grading
+What is the difference between an Evidence Hierarchy and a Grading system in NIH guidelines?,evidence,comparative,evidence
+Why does expert opinion have lower certainty?,evidence,simple,evidence
+What are the principles of NIH evidence hierarchy guidelines?,evidence,simple,evidence
+How does expert opinion rank in the NIH evidence hierarchy?,evidence,simple,evidence
+When should strong recommendations be issued according to NIH grading guidelines?,grading,simple,grading
+What characterizes a conditional recommendation in clinical guidance?,grading,simple,grading
+How should clinicians assess the balance of benefits and harms when grading recommendations?,grading,complex,grading
+What is the hierarchy of clinical evidence?,evidence,simple,evidence
+How should clinicians incorporate patient values into the decision-making process?,shared,simple,shared_decision
+What steps ensure transparency when presenting risks and benefits to patients?,shared,complex,shared_decision
+What defines the 'collaboration' aspect of shared decision-making according to the NIH?,shared,simple,shared_decision
+How should clinicians present benefits and risks transparently?,shared,simple,shared_decision
+Which core principles define shared decision-making guidelines?,shared,simple,shared_decision
+What are the four common implementation steps across all WHO and CDC guidelines?,hand,comparative,general
+Compare the WHO and CDC approach to risk assessment in PPE and Hygiene.,ppe,comparative,comparison
+How should clinicians evaluate the certainty of evidence before making recommendations?,evidence,complex,evidence
+What role does vaccination promotion play during respiratory seasons?,respiratory,complex,respiratory_vaccination
+How can clinicians document shared decision-making discussions?,shared,simple,shared_decision
